@@ -33,6 +33,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Rails app configuration using ENV and a single YAML file application.yml
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+
 gem 'therubyracer'
 gem 'devise'
 gem 'omniauth'
